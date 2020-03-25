@@ -1,0 +1,82 @@
+ELK:
+-Esta compuesto por 3 pilares (logtash, elasticsearch, kibana).
+-Gestor de datos
+-ALmacenamiento distribuido
+-procesamiento de informacion
+-Visualizaciones y dashboards
+-Consultas a tiempo real.
+
+
+Problemas que intenta resolver:
+
+
+1-Falta de consistencia:
+.cada log de cada dispositivo y aplicacion tiene su propio formato.
+.Administradores de sistemas y DevOps(comunicacion entre equipo seguridad y programadores) requieren usar logs
+.dificultad para realizar busquedas por los distintos formatos.
+
+
+2-Formato de tiempo:
+.Hay distintos metodo para registar el tiempo como poner la fecha, otro la hora, timestab,codificada,etc
+
+
+3-Descentralizado:
+.Logs repartidos en toods los servidores.
+.cada servidro puede tener un tipo de log
+.dentro de un mismo servidor puede tener disferentes rutas
+
+
+4-Falta de conocimiento:
+.puede que determinados usuarios no tengan permisos suficientes para realizar cualquier tipo de tarea
+
+
+5-Visualizaciones:
+.Se pretende pasar de muchas lineas de especificaciones a por ejemplo un mapa o un grafico en el que muestre los puntos calientes donde las personas se logean. 
+
+
+
+
+Resumen.
+recolecta logs,procesa esos logs y la pone a disposicion de las personas.Ls busqueda puede ser filtrada en las que la visualiza de manera interactiva en un mapa,graficos,etc.
+
+
+Ejemplo de log:
+Mar 12 12:10:18 pcC systemd: pam_unix(systemd-user:session): session opened for user adrian by (uid=0)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[DevOps] 
+---es un acrónimo inglés de development (desarrollo) y operations (operaciones), que se refiere a una metodología de desarrollo de software que se centra en la comunicación, colaboración e integración entre desarrolladores de software y los profesionales de sistemas en las tecnologías de la información (IT)".
